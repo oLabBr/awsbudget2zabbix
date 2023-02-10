@@ -1,0 +1,29 @@
+{
+    "name": "awsbudget2zabbix",
+    "version": "1.0.0",
+    "description": "AWS Budgets to Zabbix Monitor",
+    "type": "module",
+    "main": "app.ts",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/oLabBr/awsbudget2zabbix.git"
+    },
+    "author": "Marcelo Junior",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/oLabBr/awsbudget2zabbix/issues"
+    },
+    "homepage": "https://github.com/oLabBr/awsbudget2zabbix#readme",
+    "devDependencies": {
+        "@types/node": "^18.13.0",
+        "ts-node": "^10.9.1",
+        "tslib": "^2.5.0"
+    },
+    "dependencies": {
+        "@aws-sdk/client-budgets": "^3.267.0",
+        "dotenv": "^16.0.3"
+    }
+}
